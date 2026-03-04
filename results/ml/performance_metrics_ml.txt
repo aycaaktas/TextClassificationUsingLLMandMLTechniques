@@ -1,0 +1,5 @@
+Weighted Precision: 62.28
+Weighted Recall: 53.56
+Weighted F1-Score: 53.87
+Accuracy: 53.56
+Balanced Accuracy: 63.89

@@ -1,0 +1,72 @@
+Test Accuracy: 42.41%
+Balanced Accuracy: 26.66%
+Test Precision: 43.82%
+Test Recall: 42.41%
+Test F1 Score: 40.83%
+
+Class-wise Report:
+                    precision    recall  f1-score   support
+
+             music       0.31      0.16      0.21       117
+           royalty       0.58      0.92      0.71       130
+          religion       0.63      0.38      0.47        50
+          location       0.52      0.53      0.52        95
+                tv       0.43      0.14      0.21       385
+            people       1.00      0.01      0.02        80
+           biology       0.42      0.84      0.56       518
+            sports       0.31      0.23      0.27       548
+      organization       0.11      0.07      0.08       213
+          medicine       0.40      0.09      0.15       134
+              book       0.50      0.07      0.12        45
+              film       0.51      0.72      0.60       179
+          military       0.12      0.44      0.19       205
+         education       0.21      0.19      0.20        32
+        basketball       0.00      0.00      0.00         3
+             games       0.11      0.18      0.14        11
+         astronomy       0.39      0.11      0.17       188
+          business       0.48      0.54      0.51      1068
+         geography       0.00      0.00      0.00        14
+          computer       0.71      0.33      0.45       109
+          language       0.56      0.47      0.51       137
+        government       0.11      0.10      0.10       189
+              time       0.32      0.32      0.32       488
+fictional_universe       0.00      0.00      0.00        29
+           symbols       0.43      0.05      0.09        58
+      media_common       0.19      0.59      0.29       137
+              food       0.00      0.00      0.00        83
+            soccer       0.56      0.60      0.58      2220
+           theater       0.33      0.10      0.15        30
+             award       0.07      0.01      0.02       177
+          aviation       0.45      0.47      0.46       302
+          internet       0.00      0.00      0.00         7
+         chemistry       0.38      0.56      0.45       553
+             opera       0.67      0.78      0.72      1332
+           fashion       0.27      0.12      0.16       104
+       engineering       0.19      0.33      0.24       379
+      architecture       0.49      0.33      0.40      3338
+    transportation       0.06      0.06      0.06        16
+            travel       0.23      0.55      0.32       164
+        visual_art       0.30      0.24      0.27       210
+  measurement_unit       0.18      0.15      0.17       200
+       comic_books       0.42      0.57      0.48       814
+        automotive       0.10      0.02      0.03       133
+           finance       0.04      0.17      0.07        40
+               law       0.06      0.01      0.02       305
+           physics       0.24      0.05      0.08        97
+         interests       0.00      0.00      0.00        85
+       meteorology       0.69      0.28      0.40       532
+       exhibitions       0.00      0.00      0.00         0
+           unknown       0.24      0.18      0.21        88
+
+          accuracy                           0.42     16371
+         macro avg       0.31      0.26      0.24     16371
+      weighted avg       0.44      0.42      0.41     16371
+
+Confusion Matrix:
+[[ 19   0   0 ...   0   3   1]
+ [  1 120   0 ...   0   0   0]
+ [  0   0  19 ...   0   1   0]
+ ...
+ [  0   5   0 ... 149   2   0]
+ [  0   0   0 ...   0   0   0]
+ [  2   0   0 ...   0   2  16]]
